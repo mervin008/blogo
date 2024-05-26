@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+code {
+    white-space: pre-wrap; /* Important: Preserve all whitespace */
+    display: block;  /* Make code block to control width */
+    overflow-x: auto; /* Enable horizontal scrolling on the code */
+    word-break: break-all; /* Break long words if necessary */
+    /* Add these two lines to prevent wrapping */
+    word-wrap: normal;
+    overflow-wrap: normal;
+  }
